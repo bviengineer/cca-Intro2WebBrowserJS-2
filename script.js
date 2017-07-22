@@ -6,8 +6,13 @@ var greetingsBtn = document.getElementById("greetingsButton"), //submit button o
     resetTxtBox = document.getElementById("startOver"), //clear contents in text box
     displayDiv = document.getElementById("printedText"); //div that will host the display of user input typed into text box
 
+    var clearTxtBox = function () {
+        document.getElementById("userInput").value = "";
+    }
+
     greetingsBtn.addEventListener("click", function() {
             displayDiv.innerText = greetingsBtn.value + " " + userInputTxt.value;
+            clearTxtBox();        
     });
 
     helloBtn.addEventListener("click", function() {
@@ -25,3 +30,5 @@ var greetingsBtn = document.getElementById("greetingsButton"), //submit button o
     resetTxtBox.addEventListener("click", function() {
             displayDiv.innerHTML = " ";
     });
+
+    document.getElementById("userInput").value = "";
