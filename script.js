@@ -7,19 +7,19 @@ var greetingsBtn = document.getElementById("greetingsButton"), //submit button o
     displayDiv = document.getElementById("printedText"); //div that will host the display of user input typed into text box
 
     greetingsBtn.addEventListener("click", function() {
-            displayDiv.innerText = "Greetings:" + " " + userInputTxt.value;
+            displayDiv.innerText = greetingsBtn.value + " " + userInputTxt.value;
     });
 
     helloBtn.addEventListener("click", function() {
-            displayDiv.innerText = "Hello:" + " " + userInputTxt.value;
+            displayDiv.innerText = helloBtn.value + " " + userInputTxt.value;
     });
 
     howdyBtn.addEventListener("click", function() {
-            displayDiv.innerText = "Howdy:" + " " + userInputTxt.value;
+            displayDiv.innerText = howdyBtn.value + " " + userInputTxt.value;
     });
 
     backatyaBtn.addEventListener("click", function() {
-            displayDiv.innerText = "Back at ya!:" + " " + userInputTxt.value;
+            displayDiv.innerText = backatyaBtn.value + " " + userInputTxt.value;
     });
 
     resetTxtBox.addEventListener("click", function() {
