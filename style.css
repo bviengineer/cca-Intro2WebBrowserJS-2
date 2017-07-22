@@ -1,0 +1,82 @@
+/********************************
+BUTTONS LAYOUT
+********************************/
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    margin-top: 10px;
+    padding-right: 110px;
+    margin-left: -100px;
+}
+
+/********************************
+BACKGROUND & DIVs
+*********************************/
+body {
+    background-color: whitesmoke;
+}
+
+#content-div {
+    padding: 40px 0px 0px 200px;
+    margin-top: 40px;
+    margin-left: 300px;
+    background-color: lightseagreen;
+    border: 3px solid lightslategray;
+    height: 250px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+#printedText {
+    padding: 40px 0px 0px 200px;
+    margin-left: 300px;
+    margin-top: 5px;
+    background-color: pink;
+    border: 3px solid lightslategray;
+    height: 150px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+/********************************
+STYLING OF TAGS
+*******************************/
+h1 {
+    margin-top: 5px;
+    padding-left: 10px;
+    color:darkgreen;
+}
+
+#userInput {
+    padding-left: 150px;
+    padding-right: 10px;
+}
+
+#greetingsButton {
+    /*margin-left: 10px;*/
+    font-size: 15px;
+    color: darkgreen;
+}
+
+ #helloButton {
+     font-size: 15px;
+     color: darkgreen;
+ }
+
+ #howdyButton {
+     font-size: 15px;
+     color: darkgreen;
+ }
+
+ #backatyaButton {
+     font-size: 15px;
+     color: darkgreen;
+ }
+
+ #startOver {
+     font-size: 15px;
+     color: darkgreen;
+ }
