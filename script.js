@@ -17,18 +17,22 @@ var greetingsBtn = document.getElementById("greetingsButton"), //submit button o
 
     helloBtn.addEventListener("click", function() {
             displayDiv.innerText = helloBtn.value + " " + userInputTxt.value;
+			clearTxtBox();
     });
 
     howdyBtn.addEventListener("click", function() {
             displayDiv.innerText = howdyBtn.value + " " + userInputTxt.value;
+			clearTxtBox();
     });
 
     backatyaBtn.addEventListener("click", function() {
             displayDiv.innerText = backatyaBtn.value + " " + userInputTxt.value;
+			clearTxtBox();
     });
 
     resetTxtBox.addEventListener("click", function() {
             displayDiv.innerHTML = " ";
+			clearTxtBox();
     });
 
     document.getElementById("userInput").value = "";
